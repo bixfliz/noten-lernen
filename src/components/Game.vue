@@ -116,6 +116,8 @@ export default {
         case 'normal':
           return 36;
         case 'hard':
+          return 36;
+        case 'hard2':
         default:
           return 36;
       }
@@ -127,8 +129,10 @@ export default {
         case 'normal':
           return 48;
         case 'hard':
+          return 24;
+        case 'hard2':
         default:
-          return 57;
+          return 9;
       }
     },
     minTrebleValue(){
@@ -138,6 +142,8 @@ export default {
         case 'normal':
           return 48;
         case 'hard':
+          return 40;
+        case 'hard2':
         default:
           return 40;
       }
@@ -149,6 +155,8 @@ export default {
         case 'normal':
           return 69;
         case 'hard':
+          return 84;
+        case 'hard2':
         default:
           return 96;
       }
@@ -160,6 +168,8 @@ export default {
         case 'normal':
           return 36;
         case 'hard':
+          return 29;
+        case 'hard2':
         default:
           return 29;
       }
@@ -171,6 +181,8 @@ export default {
         case 'normal':
           return 60;
         case 'hard':
+          return 67;
+        case 'hard2':
         default:
           return 67;
       }
@@ -182,6 +194,8 @@ export default {
         case 'normal':
           return 36;
         case 'hard':
+          return 26;
+        case 'hard2':
         default:
           return 26;
       }
@@ -193,6 +207,8 @@ export default {
         case 'normal':
           return 60;
         case 'hard':
+          return 64;
+        case 'hard2':
         default:
           return 64;
       }
