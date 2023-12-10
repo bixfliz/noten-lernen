@@ -114,10 +114,10 @@ export default {
         case 'easy':
           return 36;
         case 'normal':
-          return 28;
+          return 36;
         case 'hard':
         default:
-          return 19;
+          return 36;
       }
     },
     maxBassValue(){
@@ -150,7 +150,7 @@ export default {
           return 69;
         case 'hard':
         default:
-          return 77;
+          return 96;
       }
     },
     minAltoValue(){
