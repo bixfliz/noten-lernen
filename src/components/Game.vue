@@ -116,10 +116,10 @@ export default {
         case 'normal':
           return 36;
         case 'hard':
-          return 36;
+          return 24;
         case 'hard2':
         default:
-          return 36;
+          return 9;
       }
     },
     maxBassValue(){
@@ -129,10 +129,10 @@ export default {
         case 'normal':
           return 48;
         case 'hard':
-          return 24;
+          return 57;
         case 'hard2':
         default:
-          return 9;
+          return 57;
       }
     },
     minTrebleValue(){
