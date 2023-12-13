@@ -111,6 +111,8 @@ export default {
     },
     minBassValue(){
       switch(this.options.difficulty){
+        case 'c6c7':
+          return 36;
         case 'easy':
           return 36;
         case 'normal':
@@ -124,6 +126,8 @@ export default {
     },
     maxBassValue(){
       switch(this.options.difficulty){
+        case 'c6c7':
+          return 48;
         case 'easy':
           return 48;
         case 'normal':
@@ -137,6 +141,8 @@ export default {
     },
     minTrebleValue(){
       switch(this.options.difficulty){
+        case 'c6c7':
+          return 72;
         case 'easy':
           return 48;
         case 'normal':
@@ -150,6 +156,8 @@ export default {
     },
     maxTrebleValue(){
       switch(this.options.difficulty){
+        case 'c6c7':
+          return 84;
         case 'easy':
           return 60;
         case 'normal':
@@ -163,6 +171,8 @@ export default {
     },
     minAltoValue(){
       switch(this.options.difficulty){
+        case 'c6c7':
+          return 43;
         case 'easy':
           return 43;
         case 'normal':
@@ -176,6 +186,8 @@ export default {
     },
     maxAltoValue(){
       switch(this.options.difficulty){
+        case 'c6c7':
+          return 55;
         case 'easy':
           return 55;
         case 'normal':
@@ -189,6 +201,8 @@ export default {
     },
     minTenorValue(){
       switch(this.options.difficulty){
+        case 'c6c7':
+          return 43;
         case 'easy':
           return 43;
         case 'normal':
@@ -202,6 +216,8 @@ export default {
     },
     maxTenorValue(){
       switch(this.options.difficulty){
+        case 'c6c7':
+          return 55;
         case 'easy':
           return 55;
         case 'normal':

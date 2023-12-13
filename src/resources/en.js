@@ -51,6 +51,7 @@ export default {
   normal: "Normal",
   hard: "Hard 61",
   hard2: "Hard 88",
+  c6c7: "C6 - C7",
   none: "None",
   sharp: "♯",
   flat: "♭",
