@@ -128,7 +128,8 @@ export default {
         { value: "normal", label: this.$t("normal") },
         { value: "hard", label: this.$t("hard") },
         { value: "hard2", label: this.$t("hard2") },
-        { value: "c6c7", label: this.$t("c6c7") }
+        { value: "c6c7", label: this.$t("c6c7") },
+        { value: "c7c8", label: this.$t("c7c8") }
       ];
     },
     accidentalOptions() {

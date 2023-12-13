@@ -113,6 +113,8 @@ export default {
       switch(this.options.difficulty){
         case 'c6c7':
           return 36;
+        case 'c7c8':
+          return 36;
         case 'easy':
           return 36;
         case 'normal':
@@ -127,6 +129,8 @@ export default {
     maxBassValue(){
       switch(this.options.difficulty){
         case 'c6c7':
+          return 48;
+        case 'c7c8':
           return 48;
         case 'easy':
           return 48;
@@ -143,6 +147,8 @@ export default {
       switch(this.options.difficulty){
         case 'c6c7':
           return 72;
+        case 'c7c8':
+          return 84;
         case 'easy':
           return 48;
         case 'normal':
@@ -158,6 +164,8 @@ export default {
       switch(this.options.difficulty){
         case 'c6c7':
           return 84;
+        case 'c7c8':
+          return 96;
         case 'easy':
           return 60;
         case 'normal':
@@ -172,6 +180,8 @@ export default {
     minAltoValue(){
       switch(this.options.difficulty){
         case 'c6c7':
+          return 43;
+        case 'c7c8':
           return 43;
         case 'easy':
           return 43;
@@ -188,6 +198,8 @@ export default {
       switch(this.options.difficulty){
         case 'c6c7':
           return 55;
+        case 'c7c8':
+          return 55;
         case 'easy':
           return 55;
         case 'normal':
@@ -203,6 +215,8 @@ export default {
       switch(this.options.difficulty){
         case 'c6c7':
           return 43;
+        case 'c7c8':
+          return 43;
         case 'easy':
           return 43;
         case 'normal':
@@ -217,6 +231,8 @@ export default {
     maxTenorValue(){
       switch(this.options.difficulty){
         case 'c6c7':
+          return 55;
+        case 'c7c8':
           return 55;
         case 'easy':
           return 55;
